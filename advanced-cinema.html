@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Advanced Selector | cinema</title>
+    <style>
+        body{
+            background-color: #333;
+            color: white;
+            font-family: arial;
+        }
+        .cinema{
+            
+            padding: 10px;
+            text-align: center;
+        }
+        .cinema .vip span { 
+            background-image: url(https://icons.iconarchive.com/icons/archigraphs/modern-chairs/72/Orange-Seat-icon.png);
+            width: 72px;
+            height: 72px;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .cinema .main span { 
+            background-image: url(https://icons.iconarchive.com/icons/archigraphs/modern-chairs/72/Magenta-Seat-icon.png);
+            width: 72px;
+            height: 72px;
+            display: inline-block;
+        
+        
+
+        }
+        .cinema .main span { 
+            background-image: url(https://icons.iconarchive.com/icons/archigraphs/modern-chairs/72/Magenta-Seat-icon.png);
+            width: 72px;
+            height: 72px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .front  span { 
+            background-image: url(https://icons.iconarchive.com/icons/archigraphs/modern-chairs/72/Magenta-Seat-icon.png); 
+            width: 72px;
+            height: 72px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle
+            
+    
+        }
+        .tab{
+        margin-left: 50px
+        
+
+        }
+        .tab::after{content: url(https://icons.iconarchive.com/icons/iloveicons.ru/browser-girl/64/browser-girl-opera-icon.png);
+        }
+
+        .tab-1{
+            
+            margin-left: 50px;
+            
+        
+        
+        
+        }
+        .tab-1::after{
+            content: url(https://icons.iconarchive.com/icons/iloveicons.ru/browser-girl/64/browser-girl-opera-icon.png);
+        }
+        
+    
+        .tab-2{
+            
+            margin-left: 50px;
+            
+        }
+        .tab-2::after{ content: url(https://icons.iconarchive.com/icons/iloveicons.ru/browser-girl/64/browser-girl-opera-icon.png);}
+        
+            
+            
+        
+            
+        
+    
+            .tab-4::after{
+                content:url(https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-2/64/man-icon.png);
+                
+           
+            }
+        
+    
+        
+       
+
+
+    
+    </style>
+</head>
+<body>
+    <h1>Advanced Selectors <br> Cinema</h1>
+
+    <div class="cinema">
+
+        <div class="vip">
+
+            <h2>Vip</h2>
+            <div class="row">
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span class="tab-4">7</span>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <h2>Main</h2>
+            <div class="row"><span>1</span><span>2</span><span>3</span><span>4</span><span class="tab">5</span><span>6</span><span>7</span><span>8</span>
+            </div>
+            <div class="row"><span>1</span><span>2</span><span>3</span><span>4</span><span class="tab-1" >5</span><span>6</span><span>7<br></span><span>8</span>
+            </div>
+            <div class="row"><span>1</span><span>2</span><span>3</span><span>4</span><span class="tab-2">5</span><span>6</span><span>7</span><span>8</span>
+            </div>
+
+            </div>
+        
+        
+        <div class="front">
+            <div class="row"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+            
+
+        </div>
+        
+    
+
+    </div>
+    
+</body>
+</html>
